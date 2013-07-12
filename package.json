@@ -1,6 +1,6 @@
 {
   "name": "json-literal",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "superset of `JSON` adding date, regex, null and octal literals",
   "keywords": [],
   "dependencies": {
