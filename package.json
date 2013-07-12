@@ -5,11 +5,11 @@
   "keywords": [],
   "dependencies": {
     "esprima": "~1.0.3",
-    "type-of": "~2.0.0",
-    "garbage": "0.0.0"
+    "type-of": "~2.0.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "garbage": "*"
   },
   "scripts": {
     "test": "mocha -R spec"
