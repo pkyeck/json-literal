@@ -1,0 +1,23 @@
+{
+  "name": "json-literal",
+  "version": "0.0.0",
+  "description": "superset of `JSON` adding date, regex, null and octal literals",
+  "keywords": [],
+  "dependencies": {
+    "esprima": "~1.0.3",
+    "type-of": "~2.0.0",
+    "garbage": "0.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/json-literal.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT"
+}
