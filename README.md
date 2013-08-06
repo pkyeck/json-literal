@@ -1,11 +1,12 @@
 # json-literal
 
-Superset of `JSON` adding date, regex, null, undefined and octal literals.  Inspired by [@substack](https://github.com/substack)'s [json-literal-parse](https://github.com/substack/json-literal-parse).
+Superset of `JSON` adding circular references, date, regex, null, undefined and octal literals while also making it more flexible so as to be easier to read and write.  Inspired by [@substack](https://github.com/substack)'s [json-literal-parse](https://github.com/substack/json-literal-parse).
 
 Key Points:
 
  - Secure Parser, it does not use 'eval', except on something that's just been through `JSON.stringify` to sanitize it.
  - Stringifier does not produce valid JSON, it writes un-quoted keys when possible, and includes RegExp and Date Literals.
+ - The stringifier and parser both represent circular refernces internally as `new Circular("path", "to", "canonical", "instance", "of", "object")`
  - The parser understands any Date of the form `new Date(...args)`
  - The parser understands any RegExp of the form `/regexp/gi`
  - The parser accepts un-quoted keys, providing they are valid identifiers (e.g. `{a: 5, b: "foo"}`)
