@@ -13,9 +13,9 @@ Key Points:
  - The parser accepts either `"` or `'` as quotes for strings
  - The parser allows comments as both `// line comment` and `/* inline comment */`
 
-[![Build Status](https://travis-ci.org/ForbesLindesay/json-literal.png?branch=master)](https://travis-ci.org/ForbesLindesay/json-literal)
-[![Dependency Status](https://gemnasium.com/ForbesLindesay/json-literal.png)](https://gemnasium.com/ForbesLindesay/json-literal)
-[![NPM version](https://badge.fury.io/js/json-literal.png)](http://badge.fury.io/js/json-literal)
+[![Build Status](https://img.shields.io/travis/ForbesLindesay/json-literal/master.svg)](https://travis-ci.org/ForbesLindesay/json-literal)
+[![Dependency Status](https://img.shields.io/gemnasium/ForbesLindesay/json-literal.svg)](https://gemnasium.com/ForbesLindesay/json-literal)
+[![NPM version](https://img.shields.io/npm/v/json-literal.svg)](http://badge.fury.io/js/json-literal)
 
 ## Installation
 
