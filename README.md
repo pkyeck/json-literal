@@ -14,8 +14,8 @@ Key Points:
  - The parser allows comments as both `// line comment` and `/* inline comment */`
 
 [![Build Status](https://img.shields.io/travis/ForbesLindesay/json-literal/master.svg)](https://travis-ci.org/ForbesLindesay/json-literal)
-[![Dependency Status](https://img.shields.io/gemnasium/ForbesLindesay/json-literal.svg)](https://gemnasium.com/ForbesLindesay/json-literal)
-[![NPM version](https://img.shields.io/npm/v/json-literal.svg)](http://badge.fury.io/js/json-literal)
+[![Dependency Status](https://img.shields.io/david/ForbesLindesay/json-literal.svg)](https://david-dm.org/ForbesLindesay/json-literal)
+[![NPM version](https://img.shields.io/npm/v/json-literal.svg)](https://www.npmjs.com/package/json-literal)
 
 ## Installation
 
