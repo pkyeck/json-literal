@@ -1,5 +1,7 @@
 # json-literal
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/json-literal.svg)](https://greenkeeper.io/)
+
 Superset of `JSON` adding circular references, date, regex, null, undefined and octal literals while also making it more flexible so as to be easier to read and write.  Inspired by [@substack](https://github.com/substack)'s [json-literal-parse](https://github.com/substack/json-literal-parse).
 
 Key Points:
