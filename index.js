@@ -1,7 +1,7 @@
 'use strict'
 
 var type = require('type-of')
-var util = require('util')
+var inspect = require('util-inspect')
 var esprima = require('esprima')
 
 module.exports = {parse: parse, stringify: stringify}
@@ -116,7 +116,7 @@ function stringify(obj, options) {
       case 'date':
         return 'new Date(' + walk(node.toISOString()) + ')'
       case 'regexp':
-        return util.inspect(node)
+        return inspect(node)
       case 'arguments':
         node = Array.prototype.slice(node)
       case 'array':
