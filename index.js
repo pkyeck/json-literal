@@ -46,7 +46,7 @@ function parse(src, options) {
       return undefined
     } else if (node.type === 'NewExpression' && node.callee.type === 'Identifier' && node.callee.name === 'Date') {
       var args = node.arguments.map(walk)
-      return eval('new Date(' + args.map(JSON.stringify).join(',') + ')')
+      return new Date(args[0])
     } else if (node.type === 'NewExpression' && node.callee.type === 'Identifier' && node.callee.name === 'Circular') {
       if (!path) {
         throw new Error('Circular references are not supported in this location.')
