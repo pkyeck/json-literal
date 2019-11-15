@@ -4,13 +4,13 @@
   "description": "superset of `JSON` adding date, regex, null and octal literals",
   "keywords": [],
   "dependencies": {
-    "esprima": "~1.0.3",
+    "esprima": "~4.0.1",
     "type-of": "~2.0.0",
     "util-inspect": "^0.1.8"
   },
   "devDependencies": {
     "garbage": "*",
-    "mocha": "*"
+    "mocha": "6.2.2"
   },
   "scripts": {
     "test": "mocha -R spec"
